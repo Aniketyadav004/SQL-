@@ -1,5 +1,6 @@
 **🏦 Loan Portfolio & Risk Analysis System Using SQL**
 
+
 **📌 Project Overview**
 The Loan Portfolio & Risk Analysis System is a SQL-based data analytics project designed to help financial institutions monitor, analyze, and manage their loan portfolios effectively.
 
@@ -12,24 +13,19 @@ This project focuses on loan performance, customer behavior, portfolio health, c
 Financial institutions handle thousands of loan applications across different cities, customer segments, and loan products. As loan volumes increase, management requires a centralized system to answer critical business questions such as:
 
 Which customers have active loans?
-
 Which loan products generate the highest business?
-
 What is the total disbursed loan amount?
-
 Which customers have overdue payments?
-
 Which cities have the highest loan demand?
-
 What is the current outstanding portfolio?
-
 Which customers represent higher credit risk?
-
 How is loan performance changing over time?
+
 
 
 Problems
 <a href="https://github.com/Aniketyadav004/SQL-/blob/main/%F0%9F%93%8C%20SQL%20Project.docx">Problems view</a>
+
 
 This project provides SQL-based solutions to answer these business questions.
 
@@ -37,6 +33,7 @@ This project provides SQL-based solutions to answer these business questions.
 🗄️ **Database Schema**
 **Loan Table**
 The project is built around a single primary table:
+
 
 **LOAN**
 Column Name ,
@@ -113,15 +110,17 @@ Risky borrower identification,
 Portfolio performance evaluation
 
 
+
 ⚠️**Risk Classification Logic**
 Customers are categorized based on their credit score:
 
-Credit Score	Risk Category--
-750+	Low Risk--
-650 - 749	Medium Risk--
-550 - 649	High Risk--
-Below 550	Very High Risk--
+Credit Score	Risk Category,
+750+	Low Risk,
+650 - 749	Medium Risk,
+550 - 649	High Risk,
+Below 550	Very High Risk,
 This classification helps identify potential default risks and outstanding portfolio exposure.
+
 
 
 📈 **Key Business KPIs**
@@ -150,9 +149,10 @@ Subqueries *
 Business KPI Analysis *
 Data Analytics *
 
+
 📂**Project Structure**
 Loan-Portfolio-Risk-Analysis-System/
-│
+
 ├── Database Design
 ├── Loan_Table.sql
 ├── Sample_Dataset.sql
